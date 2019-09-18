@@ -25,6 +25,9 @@ var patientRecordsApp = new Vue({
         dob: '',
         sexAtBirth: ''
       }
+    },
+    handleRecordClick(patient){
+      console.log(patient)
     }
   },
   created() {
